@@ -1,3 +1,6 @@
-Django_project/store_server/venv
-Django_project/store_server/.idea
+Django_project/store-server/venv
+Django_project/store-server/.idea
 Django_project/store-server/store/db.sqlite3
+Django_project/store-server/store/venv
+Django_project/store-server/store/.idea
+

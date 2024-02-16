@@ -14,6 +14,7 @@ class ProductAdmin(admin.ModelAdmin):
     search_fields = ('name',)
     ordering = ('name',)
 
+
 class BasketAdmin(admin.TabularInline):
     model = Basket
     fields = ('product', 'quantity',)

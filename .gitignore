@@ -3,4 +3,4 @@ Django_project/store-server/.idea
 Django_project/store-server/store/db.sqlite3
 Django_project/store-server/store/venv
 Django_project/store-server/store/.idea
-
+Django_project/store-server/store/.env

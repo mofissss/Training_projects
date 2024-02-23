@@ -25,7 +25,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', IndexView.as_view(), name='index'),
     path('products/', include('products.urls', namespace='products')),
-    path('user/', include('users.urls', namespace='users'))
+    path('user/', include('users.urls', namespace='users')),
+    path('social-auth/', include('social_django.urls', namespace='social'))
 ]
 
 if settings.DEBUG:

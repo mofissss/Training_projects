@@ -32,7 +32,7 @@ class ProductsListViewTestCase(TestCase):
 
     def test_list_with_category(self):
         category = ProductCategory.objects.first()
-        path = reverse('products:category',kwargs={'category_id': 1})
+        path = reverse('products:category', kwargs={'category_id': 1})
         response = self.client.get(path)
 
         self._common_test(response)
